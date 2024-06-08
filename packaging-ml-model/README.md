@@ -1,1 +1,1 @@
-End to end classification model with stand coding practice.
+End to end classification model with standard coding practice.
