@@ -20,7 +20,7 @@ from prediction_model.predict import generate_prediction
 @pytest.fixture
 def single_prediction():
     test_dataset = load_datasets(config.TEST_FILE)
-    single_row = test_dataset[:1]
+    single_row = test_dataset
     result = generate_prediction(single_row)
     return result
 
