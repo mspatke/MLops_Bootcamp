@@ -1,0 +1,44 @@
+# Hey This is a YAML demo
+my-course: "AWS DevOps Certifications"
+version: 1.0
+price: 299
+is_public: true
+release_date: 2022-01-19  # default date format : YYYY-MM-DD
+pre-enroll: null
+
+#List in YAML - 2 ways
+# first way to define list
+category:
+  - AWS
+  - DevOps
+  - AWS Certification
+
+# Second way to define list
+course_dev: ["murthy", "Kavya", "nirnay"]
+
+# array/ list which contains the other objects
+dev_details:
+  - name: "murthy"
+    email: "support@manifoldaileanrning.com"
+    role: "author"
+  - name: "kavya"
+    email: "support@manifoldaileanrning.com"
+    role: "coauthor"
+  - name: "nirnay"
+    email: "support@manifoldaileanrning.com"
+    role: "editor"
+  - {name: "navishka", email: "support@manifoldaileanrning.com", role: "Finance"}
+
+  # multiline string
+
+short_description: >
+  This is course for
+  AWS Devops Professional
+  certification
+
+detailed_description: >
+  This course has been
+  created with the colabration
+  with industry people
+  
+
